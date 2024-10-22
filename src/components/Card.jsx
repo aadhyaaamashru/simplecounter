@@ -59,7 +59,7 @@ const Card = () => {
   };
 
   return (
-    <div className="bg-white w-full h-auto rounded-xl shadow-xl p-5 pt-12 md:pt-16">
+    <div className="bg-white w-full h-auto rounded-xl shadow-xl p-5 pt-12 sm:pt-16 md:pt-20">
       <div className="bg-blue-900 flex justify-center rounded-t-xl py-6 md:py-8">
         <h1 className="text-2xl sm:text-3xl md:text-4xl text-slate-50">
           Tambola Number Caller
