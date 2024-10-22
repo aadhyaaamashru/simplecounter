@@ -65,7 +65,7 @@ const Card = () => {
       {/* Added padding at the very top */}
       <div className="bg-blue-900 flex justify-center rounded-t-xl py-6 md:py-8">
         <h1 className="text-2xl md:text-3xl text-slate-50">
-          Bingo Number Caller
+          Tambola Number Caller
         </h1>
       </div>
       <div className="py-12 md:py-16 flex justify-center">
