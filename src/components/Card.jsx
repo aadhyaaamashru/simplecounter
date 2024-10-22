@@ -77,7 +77,7 @@ const Card = () => {
       </div>
       <div className="p-6 md:p-8">
         <h3 className="text-center text-lg md:text-xl font-semibold">
-          Bingo Board
+          Board
         </h3>
         <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 mt-8 md:mt-12">
           {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => (
