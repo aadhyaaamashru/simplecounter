@@ -36,7 +36,6 @@
 //   )}
 
 // export default Card
-
 import { useState } from "react";
 import Button from "./Button";
 
@@ -61,16 +60,13 @@ const Card = () => {
 
   return (
     <div className="bg-white w-full h-auto rounded-xl shadow-xl p-5 pt-12 md:pt-16">
-      {" "}
-      {/* Added padding at the very top */}
       <div className="bg-blue-900 flex justify-center rounded-t-xl py-6 md:py-8">
-        <h1 className="text-2xl md:text-3xl text-slate-50">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl text-slate-50">
           Tambola Number Caller
         </h1>
       </div>
       <div className="py-12 md:py-16 flex justify-center">
-        <h2 className="text-6xl md:text-8xl">{number ?? "--"}</h2>{" "}
-        {/* Display last called number */}
+        <h2 className="text-6xl sm:text-7xl md:text-8xl">{number ?? "--"}</h2>
       </div>
       <div className="bg-blue-900 rounded-b-xl py-6 flex justify-center mb-8">
         <Button text="Call Number" onClick={randomBingoNumber} />
@@ -79,7 +75,7 @@ const Card = () => {
         <h3 className="text-center text-lg md:text-xl font-semibold">
           Board
         </h3>
-        <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 mt-8 md:mt-12">
+        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-2 mt-8 md:mt-12">
           {Array.from({ length: 100 }, (_, i) => i + 1).map((num) => (
             <span
               key={num}
